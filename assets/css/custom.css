@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.owl-prev span {
+    display: none !important;
+}
+
+.owl-next span {
+    display: none !important;
+}
+
+.mapc {
+    width: 80%;
+}
+
+.mapmain {
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: end;
+
+}
+
+.category-image {
+    height: 200px;
+    width: 180px;
+
+}
+
+.product-image {
+    width: 270px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .cart-page-res {
+        flex-direction: column !important;
+    }
+
+    .basic-details {
+        width: 100% !important;
+    }
+
+    .order-details {
+        width: 100% !important;
+    }
+
+
+}
+
+@media screen and (max-width: 990px) {
+    .category-image {
+        width: 110px;
+        vertical-align: middle;
+        height: 140px;
+    }
+
+    .product-image {
+        width: 230px;
+    }
+
+    .value-btn {
+        margin-right: 20px;
+    }
+
+    .remove-div {
+        margin-top: 27px !important;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+
+    .navbar-responsive {
+        text-align: center !important;
+    }
+
+    .mapmain {
+        justify-content: center;
+    }
+
+    .category-image {
+        width: 200px;
+        vertical-align: middle;
+    }
+
+    .product-image {
+        width: 300px;
+    }
+
+    .product-heading {
+        margin-top: 20px;
+    }
+
+    .value-div {
+        width: 140px !important;
+    }
+
+    .whish-list {
+        margin-top: 10px !important;
+    }
+
+    .heading-size {
+        font-size: 18px !important;
+    }
+
+    .remove-div {
+        margin-top: 11px !important;
+    }
+
+    .cart-image-btm {
+        margin-bottom: 17px !important;
+    }
+
+    .order-details {
+        text-align: center !important;
+    }
+
+    .cart-items-cntr {
+        text-align: center !important;
+    }
+
+    .value-btn {
+        margin-left: 170px !important;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .value-btn {
+        margin-left: 140px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .value-btn {
+        margin-left: 110px !important;
+    }
+}
