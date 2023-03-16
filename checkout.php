@@ -125,7 +125,7 @@
            </h5>
        </footer>
 
-       <!-- Replace "test" with your own sandbox Business account app client ID -->
+       <!-- Sandbox Business account app client ID -->
        <script
            src="https://www.paypal.com/sdk/js?client-id=AXu3itulJLGPDXYNVN9RPvzbyWlxQkVtQVdcFcHWzk8L7oSI1LS2oCA_dPM6uWLMazjgH_gLFkmyXxMp&currency=USD">
        </script>
